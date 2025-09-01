@@ -17,7 +17,7 @@ This project explores fraud detection using machine learning techniques on a hig
 5. Modularized pipeline (src/ folder) for clean and reproducible code
 
 **Project Structure:**
-``bash 
+`bash 
 fraud_detection_anomaly/
 │── data/               # dataset (ignored in .gitignore)
 │── notebooks/          # Jupyter notebooks (EDA + experimentation)
