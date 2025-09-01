@@ -16,33 +16,6 @@ This project explores fraud detection using machine learning techniques on a hig
 
 5. Modularized pipeline (src/ folder) for clean and reproducible code
 
-**Project Structure:**
-
-fraud_detection_anomaly/
-
-│── data/               # dataset (ignored in .gitignore)
-
-│── notebooks/          # Jupyter notebooks (EDA + experimentation)
-
-│── src/                # modularized Python scripts
-
-│   ├── data_prep.py    # data loading & preprocessing
-
-│   ├── visualization.py # EDA & plotting
-
-│   ├── model.py        # ML models (Random Forest, Isolation Forest)
-
-│   ├── evaluation.py   # metrics & evaluation functions
-
-│   └── utils.py        # helper functions
-
-│── main.py             # entry point to run the project
-
-│── requirements.txt    # dependencies
-
-│── .gitignore          # ignored files
-
-│── README.md   
 
 **Installation:**
 
