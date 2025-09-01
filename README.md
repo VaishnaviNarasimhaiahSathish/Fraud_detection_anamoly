@@ -19,17 +19,19 @@ This project explores fraud detection using machine learning techniques on a hig
 **Project Structure:**
 fraud_detection_anomaly/
 
-1. src/                         (_Source code_)
+1. notebooks/                   (_Jupyter notebooks for experiments_
+    1. fraud_detection.ipynb     (_Original notebook_)
+
+2. results/                     (_Outputs (images, plots, reports)_)
+
+
+3. src/                         (_Source code_)
     1. data_preprocessing.py    (_Data loading, cleaning, scaling_)
     2. eda.py                   (_Exploratory Data Analysis (correlations, plots)_)
     3. model.py                 (_ML models (Random Forest, Isolation Forest, etc.)_)
     4. evaluation.py            (_Evaluation metrics, confusion matrix, PR curve_)
     5. visualization.py         (_Visualization functions (feature importance, etc.)_)
 
-2. notebooks/                   (_Jupyter notebooks for experiments_
-    1. fraud_detection.ipynb     (_Original notebook_)
-
-3. results/                     (_Outputs (images, plots, reports)_)
 
 4. main.py                      (_ Main script to run the pipeline_)
 
