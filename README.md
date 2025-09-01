@@ -42,17 +42,17 @@ fraud_detection_anomaly/
 
 1. Clone the repository:
 
-git clone https://github.com/VaishnaviNarasimhaiahSathish/Fraud_detection_anamoly.git
+    git clone https://github.com/VaishnaviNarasimhaiahSathish/Fraud_detection_anamoly.git
 
-cd Fraud_detection_anamoly
+    cd Fraud_detection_anamoly
 
 2. Create a virtual environment and install dependencies:
 
-python3 -m venv venv
-source venv/bin/activate    (_(Mac/Linux)_)
-venv\Scripts\activate       (_(Windows)_)
+    python3 -m venv venv
+    source venv/bin/activate    (_(Mac/Linux)_)
+    venv\Scripts\activate       (_(Windows)_)
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 **Usage:**
 
