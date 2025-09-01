@@ -1,10 +1,10 @@
-CREDIT CARD FRAUD DETECTION
-Overview:
+**CREDIT CARD FRAUD DETECTION**
 
-This project explores fraud detection using machine learning techniques on a highly imbalanced dataset (credit card transactions).
-The goal is to identify fraudulent transactions while minimizing false positives.
+**Overview:**
 
-Key highlights:
+This project explores fraud detection using machine learning techniques on a highly imbalanced dataset (credit card transactions). The goal is to identify fraudulent transactions while minimizing false positives.
+
+**Key highlights:**
 
 1. Exploratory Data Analysis (EDA) and visualization of transaction patterns
 
@@ -16,30 +16,43 @@ Key highlights:
 
 5. Modularized pipeline (src/ folder) for clean and reproducible code
 
-Project Structure:
+**Project Structure:**
 
 fraud_detection_anomaly/
+
 │── data/               # dataset (ignored in .gitignore)
+
 │── notebooks/          # Jupyter notebooks (EDA + experimentation)
+
 │── src/                # modularized Python scripts
+
 │   ├── data_prep.py    # data loading & preprocessing
+
 │   ├── visualization.py # EDA & plotting
+
 │   ├── model.py        # ML models (Random Forest, Isolation Forest)
+
 │   ├── evaluation.py   # metrics & evaluation functions
+
 │   └── utils.py        # helper functions
+
 │── main.py             # entry point to run the project
+
 │── requirements.txt    # dependencies
+
 │── .gitignore          # ignored files
+
 │── README.md   
 
-Installation:
+**Installation:**
 
-Clone the repository:
+1. Clone the repository:
+
 git clone https://github.com/VaishnaviNarasimhaiahSathish/fraud_detection_anomaly.git
 
 cd fraud_detection_anomaly
 
-Create a virtual environment and install dependencies:
+2. Create a virtual environment and install dependencies:
 
 python3 -m venv venv
 source venv/bin/activate   # (Mac/Linux)
@@ -47,12 +60,12 @@ venv\Scripts\activate      # (Windows)
 
 pip install -r requirements.txt
 
-Usage:
+**Usage:**
 
 Run the full pipeline:
 python main.py
 
-Results:
+**Results:**
 
 1. Without balancing: model struggled with recall (missing fraud cases).
 2. With SMOTE + Random Forest:
@@ -62,17 +75,18 @@ Results:
 
 The model successfully reduced false negatives, which is crucial for fraud detection.
 
-Future Improvements:
+**Future Improvements:**
 
 1. Hyperparameter tuning for Random Forest (RandomizedSearchCV)
 2. Compare with unsupervised anomaly detection (Isolation Forest, Autoencoders)
 3. Deploy as an API (FastAPI / Flask) or interactive dashboard (Streamlit)
 
-Dataset:
+**Dataset:**
 
 The dataset used is the Kaggle Credit Card Fraud Detection dataset:
-[text](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Author:
+**Author:**
+
 Vaishnavi Narasimhaiah Sathish
 Master’s Student in Computer Science | Germany
