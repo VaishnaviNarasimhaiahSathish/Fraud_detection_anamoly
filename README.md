@@ -21,9 +21,9 @@ This project explores fraud detection using machine learning techniques on a hig
 
 1. Clone the repository:
 
-git clone https://github.com/VaishnaviNarasimhaiahSathish/fraud_detection_anomaly.git
+git clone https://github.com/VaishnaviNarasimhaiahSathish/Fraud_detection_anamoly.git
 
-cd fraud_detection_anomaly
+cd Fraud_detection_anamoly
 
 2. Create a virtual environment and install dependencies:
 
